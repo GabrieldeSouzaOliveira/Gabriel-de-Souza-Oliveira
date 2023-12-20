@@ -1,0 +1,90 @@
+
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: #f2f2f2;
+      background-image: url('colina.jpg'); /* Substitua 'background.jpg' pelo nome do seu arquivo de imagem */
+      background-size: cover;
+    }
+    
+    .presentation {
+      text-align: center;
+      padding: 20px;
+      border: 2px solid #333;
+      border-radius: 8px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+
+    .icon-container {
+      position: fixed; /* Define a posição fixa */
+      bottom: 20px; /* Distância do fundo da página */
+      right: 20px; /* Distância da direita da página */
+      z-index: 999; /* Garante que esteja acima de outros elementos */
+    }
+    
+    .icon-container a {
+      margin-right: 10px; /* Espaço entre os ícones */
+      text-decoration: none; /* Remove sublinhado dos links */
+      color: #fdfffd; /* Cor dos ícones */
+      font-size: 24px; /* Tamanho dos ícones */
+    }
+    
+
+   
+
+    header h1 {
+      margin: 0;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+    }
+
+    section {
+      padding: 50px 20px;
+    }
+
+    .project {
+      margin-bottom: 20px;
+    }
+
+    /* Estilos específicos para dispositivos móveis */
+    @media (max-width: 768px) {
+      header {
+        padding: 10px;
+      }
+      nav ul li {
+        display: block;
+        margin-bottom: 10px;
+      }
+    }
+ 
